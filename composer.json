@@ -1,0 +1,21 @@
+{
+    "name": "hexlet/code",
+    "description": "util for gen diff",
+    "license": "MIT",
+    "bin": ["bin/gendiff"],
+    "authors": [
+        {
+            "name": "Uunnamed",
+            "email": "uunnamed@mail.ru"
+        }
+    ],
+     "autoload": {
+         "files" : [
+             "src/index.php"
+        ]
+    },
+
+    "require": {
+        "docopt/docopt": "^1.0"
+    }
+}
